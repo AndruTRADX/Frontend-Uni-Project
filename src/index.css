@@ -1,0 +1,19 @@
+/* Importamos los estilos de Tailwind CSS */
+@import "tailwindcss";
+/* Variante personalizada para modo oscuro */
+@custom-variant dark (&:is(.dark *));
+
+/* Tema personalizado con colores dinámicos */
+@theme inline {
+  --color-primary: var(--primary);
+}
+
+/* Variables CSS globales */
+:root {
+  --primary: #7c3aed;
+}
+
+/* Color primario para el modo oscuro */
+.dark {
+  --primary: #6d28d9;
+}
