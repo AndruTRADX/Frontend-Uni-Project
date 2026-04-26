@@ -28,10 +28,10 @@ Una aplicación web moderna de e-commerce desarrollada con **React** y **Vite**,
 
 ### Pasos para Instalar
 
-1. **Clona el repositorio** (si está en git):
+1. **Clona el repositorio**:
 ```bash
-git clone <url-del-repositorio>
-cd front_react
+git clone git@github.com:AndruTRADX/Frontend-Uni-Project.git
+cd Frontend-Uni-Project
 ```
 
 2. **Instala las dependencias**:
